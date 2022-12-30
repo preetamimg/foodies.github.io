@@ -2,15 +2,15 @@ const staticCacheName = 'site-static-v8';
 const dynamicCacheName = 'site-dynamic-v8';
 const assets = [
     '/',
-    '/index.html',
-    '/js/app.js',
-    '/js/materialize.min.js',
-    '/js/ui.js',
-    '/css/materialize.min.css',
-    '/css/styles.css',
-    '/img/dish.png',
+    'index.html',
+    'js/app.js',
+    'js/materialize.min.js',
+    'js/ui.js',
+    'css/materialize.min.css',
+    'css/styles.css',
+    'img/dish.png',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    '/pages/fallback.html'
+    'pages/fallback.html'
 ];
 // CACHE SIZE LIMIT FUNCTION
 const limitCacheSize = (name, size) => {
