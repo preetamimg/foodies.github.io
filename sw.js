@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v8';
-const dynamicCacheName = 'site-dynamic-v8';
+const staticCacheName = 'site-static-v14';
+const dynamicCacheName = 'site-dynamic-v14';
 const assets = [
     '/',
     'index.html',
@@ -22,6 +22,7 @@ const limitCacheSize = (name, size) => {
         })
     })
 }
+
 
 // install service worker
 self.addEventListener('install', evt => {
@@ -72,3 +73,4 @@ self.addEventListener('fetch', evt => {
         );
     }
 })
+

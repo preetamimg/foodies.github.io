@@ -1,3 +1,40 @@
+.downloadBox {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: none;
+  padding: 20px;
+  background-color: var(--primary);
+}
+.InstallHeading {
+  color: #757575;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.InstallHeading .material-icons {
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.installBtn {
+  text-align: end;
+}
+.installBtn button {
+  background-color: #FF8816;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 /* colours */
 :root{
   --primary: #FFE9D2;
