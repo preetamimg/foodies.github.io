@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-  display: none;
+  display: block;
   padding: 20px;
   background-color: var(--primary);
 }
